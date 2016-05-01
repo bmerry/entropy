@@ -7,9 +7,8 @@ Installation
 ------------
 Simply copy the entire directory tree to the Rhythmbox plugins directory. For
 a local user on a UNIX-like system, this is ~/.local/share/rhythmbox/plugins.
-This has only be tested with Rhythmbox 2.99, which uses Python 2. Your mileage
-may vary with Rhythmbox 3.x, which uses Python 3. At a minimum you will need
-to change the Loader in `rbcpf.plugin` from `python` to `python3`.
+If you have an old (pre-3.0) version of Rhythmbox, you will need to change
+`Loader=python3` to `Loader=python` in `entropy.plugin`.
 
 There is no configuration. At present, the only way to disable this behaviour
 is to disable the plugin.
